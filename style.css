@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f8f5f2;
+}
+
+main{
+    height: 12%;
+    width: 100%;
+}
+
+nav{
+    position: relative;
+}
+
+.navleft img{
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.navleft img:hover{
+    cursor: pointer;
+}
+
+
+.navcentre p{
+    position: absolute;
+    top: 23%;
+    left: 90%;
+    font-size: 15px;
+}
+
+.navcentre p:hover{
+    cursor: pointer;
+}
+
+.navcentre p:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.navcentre p:nth-child(1){
+    position: absolute;
+    left: 27%;
+}
+
+.navcentre p:nth-child(2){
+    position: absolute;
+    left: 35%;
+}
+
+.navcentre p:nth-child(3){
+    position: absolute;
+    left: 43%;
+}
+
+.navcentre p:nth-child(4){
+    position: absolute;
+    left: 54%;
+}
+
+.navcentre p:nth-child(5){
+    position: absolute;
+    left: 63%;
+}
+
+
+.ri-shopping-bag-line{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    font-size: 30px;
+}
+
+.ri-shopping-bag-line:active{
+    filter: drop-shadow(0 0 10px blue);
+}
+
+.navright img{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+.navright img:active{
+    filter: drop-shadow(0 0 10px blue);
+}
+
+.container1 .box1{
+    position: absolute;
+    width: 50%;
+    left: 6%;
+    top: 15%;
+}
+
+.container1 .box1 h1{
+    line-height: 75px;
+    font-size: 90px;   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.container1 .box1 p{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.container1 .box1 .line{
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    margin-bottom: -10px;
+}
+
+.container1 .box1 .colorbox1{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.container1 .box1 .colorbox2{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+.container1 .box1 .colorbox3{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+.container1 .box1 .box12{
+    position: relative;
+    margin-top: 15px;
+}
+
+.container1 .box1 .box12 .colorbox1{
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    background-color: #7C8773;
+}
+
+.container1 .box1 .box12 .colorbox2{
+    position: absolute;
+    top: 5%;
+    left: 17%;
+    background-color: #E4DED5;
+}
+
+.container1 .box1 .box12 .colorbox3{
+    position: absolute;
+    top: 5%;
+    left: 22%;
+    background-color: #DFA0A3;
+}
+
+.box12 h2{
+    margin-bottom: 9px;
+}
+
+.box12 h4{
+    margin-bottom: 9px;
+}
+
+.line2{
+    height: 2px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    top: 32%;
+    left: 11%;
+
+}
+
+.box13{
+    position: absolute;
+    top: -3%;
+}
+
+.box13 p{
+    position: absolute;
+    left: 200%;
+    top: 0%;
+    width: 120px;
+}
+
+.container1 .box2{
+    height: 100%;
+    width: 100%;
+}
+
+.box2{
+    position: relative;
+}
+
+.king{
+    height: 450px;
+    position: absolute;
+    right: 17%;
+    border-radius: 20px;
+}
+
+.box2 .box21 div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+
+}
+
+.box2 .box21 div:hover{
+    animation: move 1s ease;
+    cursor: pointer;
+}
+
+@keyframes move {
+    0%{
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: rotate(190deg);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+.box2 .box21 div:first-child{
+    background-image: url(./seth-doyle-BZ2PNGD5Emw-unsplash.jpg);
+    background-position: center;
+    background-size: contain; 
+    margin-bottom: 10px;
+    margin-top: 11px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 2px black);
+}
+
+.box2 .box21 div:nth-child(2){
+    background-image: url(./kenneth-running-DEUfchwLrtY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 2px black);
+}
+
+.box2 .box21 div:nth-child(3){
+    background-image: url(./rodrigo-rodrigues-wolf-r-t-wOTdOnQbjNg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 2px black);
+}
+
+.box2 .box21 div:nth-child(4){
+    background-image: url(.\/mykola-kolya-korzh-zrVY4blkWI4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 2px black);
+}
+
+.box2 .box21{
+    position: absolute;
+    right: 5%;
+}
+
+.box2 .button1{
+    position: absolute;
+    right: 45%;
+    padding: 10.5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+.box2 .button2{
+    position: absolute;
+    right: 20%;
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    width: 11.9%;
+    opacity: 0.9;
+}
+
+.symbol{
+    position: absolute;
+    left: 43%;
+    margin-top: -6px;
+}
+
+.box2 p{
+    position: absolute;
+    left: 10%;
+    margin-top: -6px;
+}
+
+.ri-star-fill{
+    color: gray;
+}
+
+.bag{
+    height: 110px;
+    width: 110px;
+    background-color: #606650;
+    border-radius: 50%;
+    position: absolute;
+    right: 16.5%;
+    margin-top: 320px;
+}
+
+.bag i{
+    position: absolute;
+    left: 37%;
+    color: white;
+}
+
+.bag p{
+    position: absolute;
+    left: 15%;
+    top: 59%;
+    color: white;
+    font-weight: 100;
+}
+
+.scarf{
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    left: 30%;
+    margin-top: 120px;
+    transform: rotate(-90deg);
+}
+
+
+.line3{
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    
+}
+
+.line3 h1{
+    position: absolute;
+    top: -25%;
+    left: 15%;
+    font-weight: 400;
+}
+
+.container2{
+    position: relative;
+}
+
+.container2 .box1{
+    position: relative;
+    height: 120px;
+    width: auto;
+    margin-top: 447px;
+    padding-top: 15px;
+}
+
+.container2 .box1 img{
+    height: 50px;
+    position: absolute; 
+}
+
+.container2 .box1 p{
+    position: absolute;
+    top: 42%;
+}
+
+.leaf1{
+    margin-left: 70px;
+}
+
+.leaf1 img{
+    position: absolute;
+    top: 5%;
+    
+}
+
+.leaf1 img:hover{
+    filter: drop-shadow(0 0 10px black);
+    cursor: pointer;
+}
+
+
+
+.leaf1 p{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: -20px;
+}
+
+.line4{
+    height: 2px;
+    width: 80px;
+    background: black;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    opacity: 0.5;
+}
+
+.leaf2 i{
+    font-size: 40px;
+    font-weight: 100;
+    opacity: 0.7;
+    margin-left: 20px;
+    position: absolute;
+    top: 7%;
+}
+
+.leaf2 i:hover{
+    filter: drop-shadow(0 0 10px black);
+    cursor: pointer;
+}
+
+.leaf2{
+    margin-left: 200px;
+}
+
+.leaf2 p{
+    margin-left: -20px;
+    margin-top: 3px;
+    margin-top: 5px;
+}
+
+.line5{
+    height: 2px;
+    width: 80px;
+    background: black;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    opacity: 0.5;
+}
+
+.leaf3 {
+    margin-left: 370px;
+}
+
+.leaf3 i{
+    position: absolute;
+    top: 15%;
+    font-size: 30px;
+    left: 30%;
+    opacity: 0.9;
+}
+
+.leaf3 i:hover{
+    filter: drop-shadow(0 0 10px black);
+    cursor: pointer;
+    
+}
+
+.leaf3 p{
+    margin-left: -9px;
+    margin-top: 5px;
+}
+
+.container2 .box2{
+    height: 56px;
+    width: 450px;
+    position: absolute;
+    background-color: #f1ebe6;
+    top: 6%;
+    right: 17%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    margin-top: 15px;
+}
+
+.inner1{
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.ri-shield-check-line{
+    font-size: 40px;
+}
+
+.ri-shield-check-line:hover{
+    cursor: pointer;
+}
+
+.inner1 p{
+    margin-top: -40px;
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
+.inner2{
+    position: absolute;
+    top: 5%;
+    height: 90px;
+    width: 150px;
+    margin-left: 150px;
+}
+
+.inner2 img{
+    cursor: pointer;
+}
+
+.inner2 p{
+    margin-top: -50px;
+    left: 65px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.inner3{
+    position: absolute;
+    top: 5%;
+    height: 90px;
+    width: 140px;
+    margin-left: 312px;
+}
+
+.inner3 img{
+    cursor: pointer;
+}
+
+.inner3 p{
+    margin-top: -40px;
+    left: 45px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.lining .line{
+    height: 2px;
+    width: 42px;
+    background-color: black;
+}
+
+.lining .line:first-child{
+    position: absolute;
+    top: 43%;
+    left: 26%;
+    transform: rotate(90deg);
+    opacity: 0.5;
+}
+
+.lining .line:nth-child(2){
+    position: absolute;
+    top: 43%;
+    left: 63.7%;
+    transform: rotate(90deg);
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
